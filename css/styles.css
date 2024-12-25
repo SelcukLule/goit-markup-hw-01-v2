@@ -72,10 +72,18 @@ body {
   color: #434455;
   display: inline-block;
 }
+.info:hover{
+color: #404BBF;
+}
+.menu:hover{
+  color: #404BBF;
+}
+  
+
 .hero-image {
   /* border: 1px solid red;*/
   position: relative;
-  display: block;
+  
   width: 1440px;
   height: 600px;
   background-color: #2e2f42;
@@ -93,6 +101,7 @@ body {
   transform: translate(-50%, -50%);
 }
 .button-1 {
+  cursor: pointer;
   font-family: "roboto";
   position: absolute;
   width: 169px;
@@ -105,6 +114,7 @@ body {
   letter-spacing: 4%;
   color: #ffffff;
   background-color: #4d5ae5;
+  
 }
 ul {
   margin: 0;
@@ -210,7 +220,7 @@ h2 {
   width: 1440px;
   height: 312px;
   position: absolute;
-  top: 1748px;
+  top: 2988px;
   background-color: #2e2f42;
 }
 .logo-2 {
@@ -243,4 +253,16 @@ h2 {
   top: 140px;
   text-align: left;
   vertical-align: middle;
+}
+.portfolyo{
+  border: 1px solid red;
+  width: 1128px;
+  height: 1000px;
+  left: 156px;
+  top: 1100px;
+  position: relative;
+}
+button:hover{
+  background-color: #404BBF;
+
 }
