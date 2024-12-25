@@ -1,0 +1,246 @@
+:root {
+  --primary-brand: #4d5ae5;
+}
+body {
+  font-family: "roboto", sans-serif;
+}
+
+.header {
+  color: #ffffff;
+  /* border: 1px solid cornflowerblue;*/
+  display: block;
+  position: relative;
+  width: 1440px;
+  height: 72px;
+}
+.logo {
+  position: absolute;
+  left: 115px;
+  top: 24px;
+  line-height: 1.16;
+  letter-spacing: 3%;
+  font-size: 18px;
+  font-family: "raleway";
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.logo-renk {
+  color: #4d5ae5;
+  display: inline-block;
+}
+.logo-renk2 {
+  display: inline-block;
+  color: #2e2f42;
+}
+
+.menu {
+  left: 261px;
+  top: 24px;
+  font-weight: medium;
+  letter-spacing: 2%;
+
+  font-size: 16px;
+  display: inline-block;
+  color: #2e2f42;
+  position: absolute;
+}
+.menu-1 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+.info-1 {
+  margin: 0;
+  position: absolute;
+  left: 941px;
+  top: 24px;
+
+  display: inline-block;
+  font-weight: "regular";
+  color: #434455;
+  display: inline-block;
+}
+.info-2 {
+  margin: inherit;
+  position: relative;
+  left: 1131px;
+  top: 24px;
+  display: inline-block;
+  font-weight: "regular";
+  color: #434455;
+  display: inline-block;
+}
+.hero-image {
+  /* border: 1px solid red;*/
+  position: relative;
+  display: block;
+  width: 1440px;
+  height: 600px;
+  background-color: #2e2f42;
+}
+.baslik-1 {
+  position: absolute;
+  color: #ffffff;
+
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 1.07;
+  letter-spacing: 2%;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.button-1 {
+  font-family: "roboto";
+  position: absolute;
+  width: 169px;
+  height: 56px;
+  top: 356px;
+  left: 636px;
+  font-weight: medium;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 4%;
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.aciklama-1 {
+  margin: 0cm;
+  width: 1114px;
+  height: 104px;
+
+  position: absolute;
+  /*border: 1px solid red;*/
+  left: 156px;
+  top: 792px;
+  font-family: "roboto";
+  font-size: 16px;
+  line-height: 1.5;
+}
+h2 {
+  margin: 0;
+  text-align: left;
+  font-weight: medium;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+.ozellik-1,
+.ozellik-2,
+.ozellik-3,
+.ozellik-4 {
+  width: 264px;
+  height: 104px;
+  display: inline-block;
+  color: #434455;
+}
+.takim {
+  margin: 0;
+  width: 1440px;
+  height: 732px;
+  /*border: 1px solid red;*/
+  position: absolute;
+  top: 1016px;
+  display: inline-block;
+  letter-spacing: 2%;
+  background-color: #f4f4fd;
+}
+.takim-baslik {
+  left: 639px;
+  top: 120px;
+  position: absolute;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.1;
+}
+.team-members {
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+}
+.team-1 {
+  left: 156px;
+  top: 232px;
+  display: inline-block;
+  position: absolute;
+}
+.member-name {
+  font-weight: 500;
+  color: #2e2f42;
+}
+.kariyer {
+  font-size: 16px;
+  color: #434455;
+}
+.team-2 {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  left: 444px;
+  top: 232px;
+  line-height: 1.2;
+}
+.team-3 {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  left: 732px;
+  top: 232px;
+  line-height: 1.2;
+}
+.team-4 {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  left: 1020px;
+  top: 232px;
+  line-height: 1.2;
+}
+
+.bilgi-1 {
+  /*border: 1px solid red;*/
+  width: 1440px;
+  height: 312px;
+  position: absolute;
+  top: 1748px;
+  background-color: #2e2f42;
+}
+.logo-2 {
+  margin: 0;
+  position: absolute;
+  left: 115px;
+  top: 125px;
+  line-height: 1.16;
+  letter-spacing: 3%;
+  font-size: 18px;
+  font-family: "raleway";
+  font-weight: bold;
+  vertical-align: middle;
+  display: inline-block;
+}
+.logo2-renk2 {
+  color: #f4f4fd;
+}
+.footer-info {
+  width: 264px;
+  height: 112px;
+  word-spacing: 16;
+
+  position: absolute;
+  /*border: 1px solid white;*/
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.2;
+  left: 115px;
+  top: 140px;
+  text-align: left;
+  vertical-align: middle;
+}
